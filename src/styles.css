@@ -1,6 +1,6 @@
-body {
-  font-family: "Playfair Display", serif;
-}
+/* body {
+   font-family: "Playfair Display", serif; 
+} */
 .fondo-dark {
   background-color: rgb(0, 0, 0);
 }
@@ -32,7 +32,7 @@ body {
   width: 350px;
 }
 .fuente1 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 .imgAnimada {
   transition: 0.5s;
@@ -118,27 +118,4 @@ a {
 
 .button:active {
   filter: brightness(0.8);
-}
-/* Pie de pagina */
-.contenedor3 {
-  /* background-image: url(../img/section7/imgfondo.jpg); */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  object-fit: contain;
-}
-.colPiePag img {
-  width: 50px;
-  height: 30px;
-  object-fit: contain;
-  margin: 0px;
-}
-.imgLogo {
-  width: 120px;
-  height: 80px;
-  object-fit: contain;
-}
-.colPiePag .row div {
-  width: 20px;
-  padding: 0px;
 }

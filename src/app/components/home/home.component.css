@@ -1,0 +1,9 @@
+/* Seccion info */
+.contenedor {
+  background-image: url(../../../assets/img/section/home/pizza.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+}

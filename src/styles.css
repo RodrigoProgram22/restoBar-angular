@@ -13,15 +13,6 @@
   height: 50px;
   object-fit: contain;
 }
-/* Seccion info */
-.contenedor {
-  /* background-image: url(../img/section3/sushi.jpg); */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  object-fit: contain;
-}
 
 /* Seccion nuestros productos */
 .imgNosotros {
@@ -32,6 +23,12 @@
 }
 .fuente1 {
   font-family: "Playfair Display", serif;
+}
+.fuente2 {
+  font-family: "Kristi", cursive;
+}
+.fuente3 {
+  font-family: "Kalam", cursive;
 }
 .imgAnimada {
   transition: 0.5s;

@@ -7,13 +7,12 @@
 nav {
   border-top: 1px rgb(0, 0, 0) solid;
   border-bottom: 1px rgb(0, 0, 0) solid;
-  font-size: 15px;
+  font-size: 13px;
   transition: 0.7s;
 }
 .enlace {
   border-right: 1px rgb(0, 0, 0) solid;
 }
-
 /* Animaciones al nav */
 .btnNav {
   margin: 0.5em;

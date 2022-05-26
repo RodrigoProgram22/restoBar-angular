@@ -1,13 +1,12 @@
 /* body {
    font-family: "Playfair Display", serif; 
 } */
-.fondo-dark {
-  background-color: rgb(0, 0, 0);
+.fondo-claro {
+  background-color: white;
 }
 .imgSombra {
   box-shadow: 0px 18px 25px;
 }
-
 /* Seccion sobre nosotros */
 .contenedor1 img {
   width: 50px;

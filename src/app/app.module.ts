@@ -11,7 +11,6 @@ import { NoticiasComponent } from './components/section/noticias/noticias.compon
 import { DeliveryComponent } from './components/section/delivery/delivery.component';
 import { ContactoComponent } from './components/section/contacto/contacto.component';
 import { RouterModule, Routes } from '@angular/router';
-import { LoaderComponent } from './components/loader/loader.component';
 const routes: Routes = [
   { path: 'inicio', component: HomeComponent },
   { path: 'nosotros', component: SobreNosotrosComponent },
@@ -19,6 +18,7 @@ const routes: Routes = [
   { path: 'noticias', component: NoticiasComponent },
   { path: 'delivery', component: DeliveryComponent },
   { path: 'contactos', component: ContactoComponent },
+  { path: '**', component: HomeComponent },
 ];
 @NgModule({
   declarations: [
@@ -31,7 +31,6 @@ const routes: Routes = [
     NoticiasComponent,
     DeliveryComponent,
     ContactoComponent,
-    LoaderComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],

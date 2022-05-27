@@ -10,11 +10,30 @@ import { ProductosComponent } from './components/section/productos/productos.com
 import { NoticiasComponent } from './components/section/noticias/noticias.component';
 import { DeliveryComponent } from './components/section/delivery/delivery.component';
 import { ContactoComponent } from './components/section/contacto/contacto.component';
-
+import { RouterModule, Routes } from '@angular/router';
+const routes: Routes = [
+  { path: 'inicio', component: HomeComponent },
+  { path: 'nosotros', component: SobreNosotrosComponent },
+  { path: 'productos', component: ProductosComponent },
+  { path: 'noticias', component: NoticiasComponent },
+  { path: 'delivery', component: DeliveryComponent },
+  { path: 'contactos', component: ContactoComponent },
+];
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent, SobreNosotrosComponent, ProductosComponent, NoticiasComponent, DeliveryComponent, ContactoComponent],
-  imports: [BrowserModule],
+  declarations: [
+    AppComponent,
+    FooterComponent,
+    HomeComponent,
+    ProductosDestacadosComponent,
+    SobreNosotrosComponent,
+    ProductosComponent,
+    NoticiasComponent,
+    DeliveryComponent,
+    ContactoComponent,
+  ],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],
   bootstrap: [AppComponent],
+  exports: [RouterModule],
 })
 export class AppModule {}

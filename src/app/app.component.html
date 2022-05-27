@@ -22,26 +22,31 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto d-flex align-items-center fuente1">
         <li class="nav-item enlace">
-          <a class="nav-link fw-bold btnNav" aria-current="page">INICIO</a>
+          <a
+            class="nav-link fw-bold btnNav"
+            routerLink="/inicio"
+            aria-current="page"
+            >INICIO</a
+          >
         </li>
         <li class="enlace nav-item">
-          <a class="nav-link btnNav">SOBRE NOSOTROS</a>
+          <a class="nav-link btnNav" routerLink="/nosotros">SOBRE NOSOTROS</a>
         </li>
         <li class="enlace nav-item">
-          <a class="nav-link btnNav">PRODUCTOS</a>
+          <a class="nav-link btnNav" routerLink="/productos">PRODUCTOS</a>
         </li>
         <li class="enlace nav-item">
-          <a class="nav-link btnNav">NOTICIAS</a>
+          <a class="nav-link btnNav" routerLink="/noticias">NOTICIAS</a>
         </li>
         <li class="enlace nav-item">
-          <a class="nav-link btnNav">DELIVERY</a>
+          <a class="nav-link btnNav" routerLink="/delivery">DELIVERY</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btnNav">CONTACTANOS</a>
+          <a class="nav-link btnNav" routerLink="/contactos">CONTACTANOS</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<app-contacto></app-contacto>
+<router-outlet></router-outlet>
 <app-footer></app-footer>

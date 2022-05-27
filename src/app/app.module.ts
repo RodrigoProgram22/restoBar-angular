@@ -5,9 +5,11 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductosDestacadosComponent } from './components/section/productos-destacados/productos-destacados.component';
+import { SobreNosotrosComponent } from './components/section/sobre-nosotros/sobre-nosotros.component';
+import { ProductosComponent } from './components/section/productos/productos.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent],
+  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent, SobreNosotrosComponent, ProductosComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],

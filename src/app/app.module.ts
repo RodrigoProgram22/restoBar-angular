@@ -9,9 +9,10 @@ import { SobreNosotrosComponent } from './components/section/sobre-nosotros/sobr
 import { ProductosComponent } from './components/section/productos/productos.component';
 import { NoticiasComponent } from './components/section/noticias/noticias.component';
 import { DeliveryComponent } from './components/section/delivery/delivery.component';
+import { ContactoComponent } from './components/section/contacto/contacto.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent, SobreNosotrosComponent, ProductosComponent, NoticiasComponent, DeliveryComponent],
+  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent, SobreNosotrosComponent, ProductosComponent, NoticiasComponent, DeliveryComponent, ContactoComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],

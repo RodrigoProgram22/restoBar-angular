@@ -1,0 +1,14 @@
+.title {
+  background-image: url(../../../../assets/img/section/home/pizza.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+  height: 250px;
+}
+@media screen and (max-width: 1000px) {
+  .title {
+    height: 150px;
+  }
+}

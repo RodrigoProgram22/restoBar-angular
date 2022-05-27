@@ -1,9 +1,16 @@
-/* body {
-   font-family: "Playfair Display", serif; 
-} */
 .fondo-claro {
   background-color: white;
 }
+.title {
+  background-image: url(assets/img/section/home/pizza.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+  height: 250px;
+}
+
 .imgSombra {
   box-shadow: 0px 18px 25px;
 }
@@ -114,4 +121,9 @@ a {
 
 .button:active {
   filter: brightness(0.8);
+}
+@media screen and (max-width: 1000px) {
+  .title {
+    height: 150px;
+  }
 }

@@ -7,9 +7,10 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductosDestacadosComponent } from './components/section/productos-destacados/productos-destacados.component';
 import { SobreNosotrosComponent } from './components/section/sobre-nosotros/sobre-nosotros.component';
 import { ProductosComponent } from './components/section/productos/productos.component';
+import { NoticiasComponent } from './components/section/noticias/noticias.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent, SobreNosotrosComponent, ProductosComponent],
+  declarations: [AppComponent, FooterComponent, HomeComponent, ProductosDestacadosComponent, SobreNosotrosComponent, ProductosComponent, NoticiasComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],

@@ -6,6 +6,16 @@
   background-size: cover;
   object-fit: contain;
 }
+.imgRedes {
+  width: 80px;
+  height: 50px;
+  object-fit: contain;
+}
+.gifRedes {
+  width: 280px;
+  height: 350px;
+  object-fit: contain;
+}
 .map {
   width: 100%;
   height: 450px;
@@ -21,6 +31,5 @@
 @media screen and (max-width: 768px) {
   .contac {
     border-right: 0px rgba(0, 0, 0, 0) solid;
-    border-bottom: 1px black solid;
   }
 }
